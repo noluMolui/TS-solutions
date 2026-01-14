@@ -1,0 +1,70 @@
+.hero-section {
+  padding: 120px 20px 80px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  color: white;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: "Bona Nova SC", serif;
+}
+
+.hero-text h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  opacity: 0.95;
+}
+
+.hero-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 14px;
+  border: 3px solid white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.03);
+}
+
+.location-button {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: var(--primary-color);
+  padding: 12px 26px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.location-button:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}

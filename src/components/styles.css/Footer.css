@@ -1,0 +1,12 @@
+.footer-section {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
