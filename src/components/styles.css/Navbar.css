@@ -58,7 +58,7 @@ nav {
   background-color: #1a9f89;
 }
 
-/* Hamburger for mobile */
+
 .menu-icon {
   display: none;
   font-size: 28px;
@@ -82,7 +82,7 @@ nav {
   }
 
   .nav-links.open {
-    max-height: 300px; /* enough for 4 links */
+    max-height: 300px; 
   }
 
   .nav-links ul {

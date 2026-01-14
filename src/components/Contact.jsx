@@ -7,7 +7,7 @@ export default function Contact() {
     <section className="contact-section" id="contact">
       <h2>Contact Us</h2>
 
-      {/* Contact Info */}
+      
       <div className="contact-info">
         <p><FiMapPin /> 15065 Turton St, Daveyton, Benoni, 1520</p>
         <p><FiPhone /> 067 164 0949</p>
@@ -15,7 +15,7 @@ export default function Contact() {
         <p><FiClock /> Mon - Fri | 10 AM - 5 PM</p>
       </div>
 
-      {/* Contact Form */}
+     
       <form className="contact-form">
         <input type="text" placeholder="Full Name" required />
         <input type="email" placeholder="Email" required />
@@ -33,7 +33,7 @@ export default function Contact() {
         </div>
       </form>
 
-      {/* Map Button */}
+    
       <a
         href="https://maps.app.goo.gl/kmC7sUZ9u6nGyB6z9"
         target="_blank"
