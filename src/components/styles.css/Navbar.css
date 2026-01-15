@@ -64,9 +64,10 @@ nav {
   font-size: 28px;
   background: none;
   border: none;
-  color: var(--text-color);
-  cursor: pointer;
+  color: var(--secondary-color);
+  cursor:pointer;
 }
+
 
 @media (max-width: 768px) {
   .nav-links {
