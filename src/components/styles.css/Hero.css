@@ -1,18 +1,19 @@
 .hero-section {
-  padding: 120px 0;
+  width: 100vw;
+  height: 100vh;              /* LOCK to screen */
+  padding: 0 20px;            /* remove vertical padding */
   background: linear-gradient(
     135deg,
     var(--primary-color),
     var(--secondary-color)
   );
   color: white;
-  display: flex;              
-  justify-content: center;    
-  align-items: center;       
-  box-sizing: border-box;  
-         
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;           /* prevents scroll */
 }
+
 
 .hero-content {
   max-width: 900px;
@@ -20,16 +21,13 @@
 }
 
 .hero-text h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
-  font-family: "Bona Nova SC", serif;
+  font-size: clamp(28px, 4vw, 40px);
+  margin-bottom: 8px;
 }
 
 .hero-text h2 {
-  font-size: 22px;
-  font-weight: 400;
-  margin-bottom: 50px;
-  opacity: 0.95;
+  font-size: clamp(16px, 2.5vw, 22px);
+  margin-bottom: 24px; /* was 50px */
 }
 
 .hero-image-container {
@@ -39,12 +37,13 @@
 
 .hero-image {
   width: 100%;
-  max-width: 380px;
+  max-width: 360px;
+  max-height: 50vh;          /* KEY LINE */
+  object-fit: cover;
   border-radius: 14px;
   border: 3px solid white;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s ease;
 }
+
 
 .hero-image:hover {
   transform: scale(1.03);
